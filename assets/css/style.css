@@ -22,6 +22,15 @@ h1 {
 
 h2 {
     font-size: 180%;
+    word-wrap: normal;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+h4 {
+    font-size: 125%;
 }
 
 nav ul {
@@ -55,14 +64,16 @@ nav ul li a{
     flex-wrap: wrap;
     list-style-type: none;
     background-color: rgb(0, 100, 100);
+    margin: 3%;
+
 }
 
 .Projects ul li {
     align-content: center;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
     min-width: 200px;
-    max-width: 30%;
+    flex: 1 1 0;
 }
 
 .Projects ul li img {
@@ -74,7 +85,6 @@ nav ul li a{
 }
 
 .main-content {
-    margin: 5%;
     text-align: justify;
 }
 
