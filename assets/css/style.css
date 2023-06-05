@@ -92,3 +92,21 @@ nav ul li a{
     text-align: center;
     min-width: 250px;
 }
+
+.About-Roqieux {
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display:inline-flex;
+}
+
+.About-Roqieux p {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+.About-Roqieux img {
+    max-height: 200px;
+    padding: 10px;
+}
