@@ -5,6 +5,7 @@
 body {
     display: block;
     line-height: 1.2;
+    background-color: lightgrey;
 }
 
 header {
@@ -54,18 +55,23 @@ nav ul li a{
 }
 
 .Projects {
-    background-color: rgb(0, 128, 128);
+    background-color: darkslategrey;
     display: flex;
     align-items: center;
+    color: aliceblue;
 }
 
 .Projects ul {
     display: inline-flex;
     flex-wrap: wrap;
     list-style-type: none;
-    background-color: rgb(0, 100, 100);
     margin: 3%;
+    background-color: lightgrey;
+    color: black;
+}
 
+.Projects H2 {
+    padding-left: 2%;
 }
 
 .Projects ul li {
@@ -77,7 +83,9 @@ nav ul li a{
 }
 
 .Projects ul li img {
-    max-width: 80%;
+    max-width: 25%;
+    display: inline-flex;
+    padding: 3%;
 }
 
 .featured {
@@ -91,4 +99,29 @@ nav ul li a{
 .main-content h2 {
     text-align: center;
     min-width: 250px;
+}
+
+.About-Roqieux {
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display:inline-flex;
+}
+
+.About-Roqieux p {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+.About-Roqieux img {
+    max-height: 200px;
+    padding: 10px;
+}
+
+footer {
+    display:block;
+    text-align: center;
+
+
 }
