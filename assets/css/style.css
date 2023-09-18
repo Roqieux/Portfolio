@@ -70,10 +70,6 @@ nav ul li a{
     color: black;
 }
 
-.Projects H2 {
-    padding-left: 2%;
-}
-
 .Projects ul li {
     align-content: center;
     text-align: center;
@@ -86,6 +82,10 @@ nav ul li a{
     max-width: 25%;
     display: inline-flex;
     padding: 3%;
+}
+
+.Projects H2 {
+    padding-left: 2%;
 }
 
 .featured {
